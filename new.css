@@ -1,0 +1,142 @@
+/* Basic page reset and centering */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Main Container Style */
+.search-container {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.search-container h2 {
+    margin-top: 0;
+    color: #24292e;
+}
+
+/* Input and Button Style */
+.input-group {
+    margin-bottom: 25px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#search-input {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#search-btn {
+    padding: 10px 20px;
+    background: #24292e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+#search-btn:hover {
+    background: #0366d6;
+}
+
+/* --- JS Generated Card Styles --- */
+
+.card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.card-header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 3px solid #24292e;
+}
+
+.user-info h3 {
+    margin: 0;
+    color: #24292e;
+}
+
+.user-info p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.bio-text {
+    margin-top: 15px;
+    line-height: 1.5;
+    color: #444;
+}
+
+.stats-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.stats-list span {
+    display: block;
+    font-weight: normal;
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.profile-link {
+    display: block;
+    text-align: center;
+    background: #0366d6;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.profile-link:hover {
+    background: #0056b3;
+}
+
+/* Error Card Style */
+.error-card {
+    background: #ffe3e3;
+    color: #dc3545;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #f5c6cb;
+}
