@@ -2,7 +2,7 @@
 
 A clean, responsive web application that dynamically fetches and displays GitHub user profiles using the GitHub REST API.
 
-Live Demo-- https://vercel.com/flashrandoms-projects/git-detective
+Live Demo--[ https://vercel.com/flashrandoms-projects/git-detective](https://git-detective-silk.vercel.app/)
 
 ## 🚀 About The Project
 I built this project to strengthen my core JavaScript fundamentals, specifically focusing on API integration and asynchronous programming. It takes a GitHub username as input and renders their profile details (avatar, bio, followers, repos) in a clean UI card.
