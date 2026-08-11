@@ -1,7 +1,7 @@
 const APIURL = "https://api.github.com/users/";
 
 const searchInput = document.getElementById("search-input");
-const searchBtn = document.getElementById("search-btn");
+const searchBtn = document.getElementById("search-btgitn");
 const mainCard = document.getElementById("main-card");
 
 // Master Function (Async/Await)
